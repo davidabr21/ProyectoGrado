@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página principal con iframes</title>
+  <style>
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Dashboard - Monitoreo Estado del Transporte en la Ciudad</h1>
+    <div style="display: flex">
+        <div style="width: 50%; padding: 10px">
+            <h2 style="text-align: center;">Monitoreo de Accidentes por Fecha</h2>
+            <iframe src="mapa_calor_accidentes.html"></iframe>
+        </div>
+        <div style="width: 50%; padding: 10px">
+            <h2 style="text-align: center;">Red Semaforica</h2>
+            <iframe src="mapa_con_puntos.html"></iframe>    
+        </div>
+    </div>
+</body>
+</html>
